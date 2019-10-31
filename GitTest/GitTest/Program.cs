@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace GitTest
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            // komentar
             List<int> list = new List<int>(){2, 5, 6, 22, 13};
-            System.Console.WriteLine("Before sorting");
+            System.Console.WriteLine("Before sorting!");
             PrintList(list);
             ListSort(list);
-            System.Console.WriteLine("After sorting");
+            System.Console.WriteLine("After sorting!");
             PrintList(list);
-            System.Console.Read();
         }
 
         public static void PrintList(List<int> list)
