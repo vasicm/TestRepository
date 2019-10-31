@@ -10,6 +10,7 @@ namespace GitTest
     {
         static void Main(string[] args)
         {
+            // izmjena na masteru
             List<int> list = new List<int>(){2, 5, 6, 22, 13};
             System.Console.WriteLine("Before sorting");
             PrintList(list);
